@@ -5,15 +5,14 @@ Welcome to my game development portfolio! This repository showcases the projects
 
 ## About Me
 
-I am a passionate game developer with a focus on [specific areas of game development, e.g., gameplay programming, graphics, AI]. I have [X years] of experience in the industry and a strong background in [your relevant education or work experience].
-
+I am a passionate game developer focusing on gameplay programming, player mechanics, and AI.
 ## Projects
 
-### Project 1: [Project Name]
+### Vesper
 
-- **Description:** Brief overview of the project.
-- **Role:** Your role in the project (e.g., Lead Developer, Programmer, Artist).
-- **Technologies Used:** List technologies, frameworks, and tools used.
+- A fast-paced 2D platformer about a formless being crashing on a planet and trying to find her way back to the sky.
+- **Team:** Three programmers and three artists.
+- **Technologies Used:** Unity2D, DOTween and particle systems.
 
 [Link to the project repository or live demo if available]
 
@@ -35,24 +34,19 @@ I am a passionate game developer with a focus on [specific areas of game develop
 
 ## Skills
 
-- **Programming Languages:** List programming languages you are proficient in.
-- **Game Engines:** Specify the game engines you are familiar with (e.g., Unity, Unreal Engine).
+- **Programming Languages:** C#, C++, Java and Python.
+- **Game Engines:** Unity, Unreal Engine.
 - **Tools:** Mention relevant tools and software you are skilled in.
 
 ## Education
 
-- [Your Degree] in [Your Major] - [University Name], [Year of Graduation]
+- Bachelor's degree in Computer Science: system development - Högskolan I Skövde, 2026
 
 ## Contact
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Portfolio Website:** [Link to your portfolio website, if applicable]
+- **Email:** abanalhindi47@gmail.com
+- **LinkedIn:** (https://www.linkedin.com/in/abdalrhman-m-alhindi/)
 
-Feel free to reach out to discuss potential collaborations or if you have any questions about my work!
+Feel free to contact me to discuss potential collaborations or have any questions about my work!
 
 ---
-
-*Note: Replace the placeholder information (inside brackets) with your actual details. Provide links to your projects and any relevant online profiles.*
-
-Good luck with your game development portfolio!
