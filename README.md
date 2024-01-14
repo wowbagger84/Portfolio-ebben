@@ -1,7 +1,5 @@
-Certainly! Below is a basic template for a game development portfolio README.md file. You can customize it by replacing the placeholder information with your own details.
 
-```markdown
-# [Your Name]'s Game Development Portfolio
+# Ebben's Game Development Portfolio
 
 Welcome to my game development portfolio! This repository showcases the projects I've worked on, highlighting my skills and experience in game development.
 
