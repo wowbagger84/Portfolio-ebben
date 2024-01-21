@@ -14,6 +14,8 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 - **Team:** Three programmers and three artists.
 - **Technologies Used:** Unity2D, DOTween and Input system.
 - [More Info about Vesper](https://github.com/Samurai-Ebben/Portflio/tree/main/Vesper)
+
+  
 ![uC_5K4](https://github.com/Samurai-Ebben/Portflio/Vesper/Images/vesper_thumbnail.png)
 ### Project 2: [Project Name]
 
