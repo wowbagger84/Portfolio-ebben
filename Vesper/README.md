@@ -14,7 +14,7 @@ As a 2D fast-paced platformer, one of the most important main mechanics is the
 ###   - Player Movement
 Of course, the player movement consumed most of my time to perfect it in a way that was as smooth as it is now;
 this is how it began.
-![image](https://github.com/Samurai-Ebben/Portflio/assets/71189461/5ee9558a-d3c0-4cab-acf3-8a0eaf289bc5)
+![](Vesper/Images/1stWeekMovement.gif)
 
 The Player mechanics are the largest mechanic in the game. I covered the movement part, focusing on the input precision and the difference in 
 stats of each size the player character has (Three, <Big, Medium, Small>).
