@@ -14,7 +14,10 @@ As a 2D fast-paced platformer, one of the most important main mechanics is the
 ###   - Player Movement
 Of course, the player movement consumed most of my time to perfect it in a way that was as smooth as it is now;
 this is how it began.
-![](Vesper/Images/1stWeekMovement.gif)
+![](/Vesper/Images/1stWeekMovement.gif)
 
+However, after hard work and better code implementation;
+
+![](/Vesper/Images/nowMovement.gif)
 The Player mechanics are the largest mechanic in the game. I covered the movement part, focusing on the input precision and the difference in 
 stats of each size the player character has (Three, <Big, Medium, Small>).
