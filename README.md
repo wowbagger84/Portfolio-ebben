@@ -39,8 +39,8 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
 ## Education
 
-- Bachelor's degree in Computer Science: system development - Högskolan I Skövde, 2026
 - High vocational diploma in Game Creator Programmer - Yrgo, 2025
+- Bachelor's degree in Computer Science: system development - Högskolan I Skövde, 2026
 
 ## Contact
 
