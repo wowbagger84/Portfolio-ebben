@@ -13,8 +13,8 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 - A fast-paced 2D platformer about a formless being crashing on a planet and trying to find her way back to the sky.
 - **Team:** Three programmers and three artists.
 - **Technologies Used:** Unity2D, DOTween and Input system.
-- [More Info about Vesper](https://github.com/Samurai-Ebben/Portflio/tree/main/Vesper)
-
+- [More Info about Vesper](https://github.com/Samurai-Ebben/Vesper/Images/vesper_thumbnail.png)
+![uC_5K4](https://github.com/Samurai-Ebben/Portflio/assets/71189461/c558950a-43bb-4c30-9fd4-10eb1c9613a2)
 ### Project 2: [Project Name]
 
 - **Description:** Brief overview of the project.
