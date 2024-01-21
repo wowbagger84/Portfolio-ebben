@@ -17,9 +17,10 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
   
 ![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
-![Thumbnail](/Vesper/Images/vesper_thumbnail.png)             |  ![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
+![](/Vesper/Images/Screenshot2024-01-04145910.png)    |  ![](/Vesper/Images/r1oReP.png)
 :-------------------------:|:-------------------------:
-![Thumbnail](/Vesper/Images/vesper_thumbnail.png)  |  ![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
+![](/Vesper/Images/Screenshot2024-01-04150218.png)  |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
+
 ### Project 2: [Project Name]
 
 - **Description:** Brief overview of the project.
