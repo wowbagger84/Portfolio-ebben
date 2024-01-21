@@ -16,7 +16,10 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 - [More Info about Vesper](https://github.com/Samurai-Ebben/Portflio/tree/main/Vesper)
 
   
-![Thumbnail](https://github.com/Samurai-Ebben/Portflio/Vesper/Images/vesper_thumbnail.png)
+![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
+![Thumbnail](/Vesper/Images/vesper_thumbnail.png)             |  ![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
+:-------------------------:|:-------------------------:
+![Thumbnail](/Vesper/Images/vesper_thumbnail.png)  |  ![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
 ### Project 2: [Project Name]
 
 - **Description:** Brief overview of the project.
