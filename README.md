@@ -20,10 +20,11 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 :-------------------------:|:-------------------------:
 ![](/Vesper/Images/vesper_trailer_v2.gif)              |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
 
-### Project 2: [Project Name]
 
-- **Description:** Brief overview of the project.
-- **Role:** Your role in the project (e.g., Lead Developer, Programmer, Artist).
+### Kat-boom
+
+- A small project made in 4 days. A cat ghost looking for its yarnball to rest in peace.
+- My role in this project is Lead Programmer responsible for the player mechanics and gameplay.
 - **Technologies Used:** List technologies, frameworks, and tools used.
 
 [Link to the project repository or live demo if available]
