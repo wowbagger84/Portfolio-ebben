@@ -22,7 +22,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
 
 ### Kat-boom
-![Thumbnail_katboom](/Kat-boom/Images/Splashart.png)
+![Thumbnail_katboom](/Kat-boom/Images/splashart.png)
 
 - A small project made in 4 days. A cat ghost looking for its yarnball to rest in peace.
 - My role in this project is Lead Programmer responsible for the player mechanics and gameplay.
