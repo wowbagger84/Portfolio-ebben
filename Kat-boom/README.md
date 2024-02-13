@@ -1,4 +1,4 @@
 # Kat-boom
-![](/Kat-boom/Images/Screenshot2024-01-04145910.png)    |  ![](/Kat-boom/Images/3G5X+H.png)
+![](/Kat-boom/Images/GhostMode.gif)    |  ![](/Kat-boom/Images/Movement.gif)
 :-------------------------:|:-------------------------:
 ![some mechanic](/Kat-boom/Images/)              |  ![some mechanic](/Kat-boom/Images/)
