@@ -21,7 +21,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 ![](/Vesper/Images/vesper_trailer_v2.gif)              |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
 
 
-### [Kat-boom](https://github.com/Samurai=Ebben/Portfolio/tree/main/Kat-boom)
+### [Kat-boom](https://github.com/Samurai-Ebben/Portflio/tree/main/Kat-boom)
 ![Thumbnail_katboom](/Kat-boom/Images/splashart.png)
 
 - A small project made in 4 days. A cat ghost looking for its yarnball to rest in peace.
