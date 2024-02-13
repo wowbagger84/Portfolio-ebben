@@ -11,7 +11,7 @@ that has been trapped in a physical form. Use the ability to change sizes to fin
 As a 2D fast-paced platformer, one of the most important main mechanics is the
 *player movement*, *changing* sizes, and the *particle system*. I was mostly responsible for the implementation of these mechanisms. 
 
-###   -  Player Movement
+### -  Player Movement
 Of course, the player movement consumed most of my time to perfect it in a way that was as smooth as it is now;
 this is how it began.
 ![before](/Vesper/Images/1stWeekMovement.gif)
@@ -62,7 +62,7 @@ actions["Jump"].canceled += OnJumpCanceled;
 </details>
 
 
-###   -  Swithching Sizes
+### -   Swithching Sizes
 
 <details>
 
