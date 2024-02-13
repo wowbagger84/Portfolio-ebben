@@ -22,3 +22,49 @@ However, after hard work and better code implementation;
 
 The Player mechanics are the largest mechanic in the game. I covered the movement part, focusing on the input precision and the difference in 
 stats of each size the player character has (Three: <Big, Medium, Small>).
+
+The game was made with the **(new)Input system** in Unity. Using the Unity Events and *Delegates* to add functionality to the player. 
+```CS
+public void Move(InputAction.CallbackContext ctx)
+{
+        moveInput = ctx.ReadValue<Vector2>();
+}
+
+void OnJumpStarted(InputAction.CallbackContext ctx)
+{
+     startedJump = true;
+
+     if (ctx.performed)
+      {
+            jumpBufferTimer = jumpBufferTime;
+            jumpPressed = true;
+        }
+    }
+
+void OnJumpCanceled(InputAction.CallbackContext ctx)
+{
+        jumpBufferTimer -= jumpBufferTime;
+        if (!ctx.performed && rb.velocity.y > 0)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * jumpCutOff);
+            coyoteTimer = 0;
+        }
+}
+
+public void Smaller(InputAction.CallbackContext ctx)
+{
+        isSmall = true;
+}
+public void SmallerCancel(InputAction.CallbackContext ctx)
+{
+        isSmall = false;
+}
+public void Larger(InputAction.CallbackContext ctx)
+{
+        isBig = true;
+}
+public void LargerCancel(InputAction.CallbackContext ctx)
+{
+        isBig = false;
+}
+```
