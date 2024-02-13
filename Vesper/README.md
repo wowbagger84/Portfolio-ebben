@@ -50,21 +50,9 @@ void OnJumpCanceled(InputAction.CallbackContext ctx)
             coyoteTimer = 0;
         }
 }
-
-public void Smaller(InputAction.CallbackContext ctx)
-{
-        isSmall = true;
-}
-public void SmallerCancel(InputAction.CallbackContext ctx)
-{
-        isSmall = false;
-}
-public void Larger(InputAction.CallbackContext ctx)
-{
-        isBig = true;
-}
-public void LargerCancel(InputAction.CallbackContext ctx)
-{
-        isBig = false;
-}
+```
+Calling these functions using delegate looked like this:
+```cs
+actions["Jump"].performed += OnJumpStarted;
+actions["Jump"].canceled += OnJumpCanceled;
 ```
