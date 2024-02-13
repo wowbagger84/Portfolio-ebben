@@ -18,7 +18,7 @@ this is how it began.
 
 However, after hard work and better code implementation;
 
-![](/Vesper/Images/nowMovement.gif)
+![now](/Vesper/Images/nowMovement.gif)
 
 The Player mechanics are the largest mechanic in the game. I covered the movement part, focusing on the input precision and the difference in 
 stats of each size the player character has (Three: <Big, Medium, Small>).
