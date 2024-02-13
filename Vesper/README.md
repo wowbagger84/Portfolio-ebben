@@ -24,6 +24,9 @@ The Player mechanics are the largest mechanic in the game. I covered the movemen
 stats of each size the player character has (Three: <Big, Medium, Small>).
 
 The game was made with the **(new)Input system** in Unity. Using the Unity Events and *Delegates* to add functionality to the player. 
+<details >
+          <summary>Show Input functions</summary>
+
 ```CS
 public void Move(InputAction.CallbackContext ctx)
 {
@@ -56,3 +59,4 @@ Calling these functions using delegate looked like this:
 actions["Jump"].performed += OnJumpStarted;
 actions["Jump"].canceled += OnJumpCanceled;
 ```
+</details>
