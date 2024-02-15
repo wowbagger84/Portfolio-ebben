@@ -275,7 +275,8 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if (!canJump || !jumpPressed || !canMove ) return;
+        if( !canMove )return;
+        if (!canJump || !jumpPressed) return;
 
         effects.CreateJumpDust();
         effects.StopLandDust();
