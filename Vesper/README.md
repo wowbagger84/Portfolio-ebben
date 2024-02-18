@@ -62,7 +62,12 @@ actions["Jump"].canceled += OnJumpCanceled;
 </details>
 
 
-### -   Swithching Sizes
+### -   Switching Sizes
+
+Right after the player's main movement, switching sizes is a very important mechanic for Vesper.
+We had many solutions for this mechanics. However, we went with a simple solution of changing the size and some stats of the player character.
+
+![now](/Vesper/Images/switch2.gif)
 
 <details>
 
