@@ -3,7 +3,7 @@
 ## Summary of the project
 Vesper was a 7 weeks game project that was pitched by my classmate at Yrgo.
 
-[ITCH.IO Page]([https://www.google.com](https://yrgo-game-creator.itch.io/vesper) "Google's Homepage")
+[Vesper ITCH.IO](https://yrgo-game-creator.itch.io/vesper)
 ## About
 
 Vesper is a skill-based puzzle platformer where you play as a formless celestial being
