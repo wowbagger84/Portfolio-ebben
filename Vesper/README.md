@@ -682,187 +682,188 @@ As with other player movement, I was also responsible for this one
 <details>
           <summary> Vent movement script</summary>
 
-          ```cs
 
-          public class VentMovement : MonoBehaviour, IReset
-          {
-              public float moveSpeed = 5f;
-              public bool canMoveRight;
-              public bool canMoveUp;
-              public bool canMoveDown;
-              public bool canMoveLeft;
+```cs
+public class VentMovement : MonoBehaviour, IReset
+{
+    public float moveSpeed = 5f;
+    public bool canMoveRight;
+    public bool canMoveUp;
+    public bool canMoveDown;
+    public bool canMoveLeft;
+
+    public LayerMask wayPoint;
+    private Vector2 input;
+    public Vector2 inputDirection;
+
+    Transform player;
+    private Rigidbody2D rb;
+    InputActionAsset actions;
+    RayCastHandler rayCastHandler;
+
+    public Vector2 bufferedInput;
+    public Vector3 prevPos;
+
+    public float deadZone = 0.9f;
+
+    private void Start()
+    {
+        rayCastHandler = GetComponent<RayCastHandler>();
+        rb = GetComponent<Rigidbody2D>();
+        player = PlayerController.player.transform;
+
+        RegisterSelfToResettableManager();
+    }
+
+    private void OnEnable()
+    {
+        actions = GetComponent<PlayerInput>().actions;
+
+        actions["Vent"].performed += OnMove;
+        actions["Vent"].canceled += OnMoveCancel;
+
+        actions.Enable();
+        inputDirection = PlayerController.instance.moveInput;
+
+    }
+
+    private void OnDisable()
+    {
+        actions["Vent"].performed -= OnMove;
+        actions["Vent"].canceled -= OnMoveCancel;
+        input = Vector2.zero;
+    }
+
+    void Update()
+    {
+        MoveBuffer();
+        Move();
+    }
+
+    void OnMove(InputAction.CallbackContext ctx)
+    {
+        input = ctx.ReadValue<Vector2>();
+        MaxInput();
+    }
+
+    void MaxInput()
+    {
+        if(Mathf.Abs(input.x) > Mathf.Abs(input.y))
+        {
+            input.y = 0;
+        }
+        else if (Mathf.Abs(input.y) > Mathf.Abs(input.x))
+        {
+            input.x = 0;
+        }
+    }
+
+    void OnMoveCancel(InputAction.CallbackContext ctx)
+    {
+        input = Vector2.zero;
+    }
+
+    void MoveBuffer()
+    {
+        if (input.x > deadZone)
+        {
+            if (canMoveRight)
+            {
+                inputDirection.x = 1;
+                inputDirection.y = 0;
+                bufferedInput = Vector2.zero;
+                return;
+            }
+            else
+            {
+                bufferedInput.x = 1;
+                bufferedInput.y = 0;
+            }
+        }
+
+        if (input.x < -deadZone)
+        {
+            if (canMoveLeft)
+            {
+                inputDirection.x = -1;
+                inputDirection.y = 0;
+                bufferedInput = Vector2.zero;
+                return;
+            }
+            else
+            {
+                bufferedInput.x = -1;
+                bufferedInput.y = 0;
+            }
+        }
+
+        if (input.y > deadZone)
+        {
+            if (canMoveUp)
+            {
+                inputDirection.y = 1;
+                inputDirection.x = 0;
+                bufferedInput = Vector2.zero;
+                return;
+            }
+            else
+            {
+                bufferedInput.y = 1;
+                bufferedInput.x = 0;
+            }
+        }
+
+        if (input.y < -deadZone)
+        {
+            if (canMoveDown)
+            {
+                inputDirection.y = -1;
+                inputDirection.x = 0;
+                bufferedInput = Vector2.zero;
+                return;
+            }
+            else
+            {
+                bufferedInput.y = -1;
+                bufferedInput.x = 0;
+            }
+        }
+        return;
+
+    }
+
+    void Move()
+    {
+        rb.gravityScale = 0;
+
+        canMoveUp = rayCastHandler.smallTopIsFree;
+        canMoveDown = rayCastHandler.smallDownIsFree;
+        canMoveLeft = rayCastHandler.leftSide;
+        canMoveRight = rayCastHandler.rightSide;
+
+        if (bufferedInput != Vector2.zero)
+        {
+            if (((canMoveRight || canMoveLeft) && bufferedInput.x != 0) || ((canMoveUp || canMoveDown) && bufferedInput.y != 0))
+            {
+                rb.velocity = new Vector2(bufferedInput.x, bufferedInput.y) * moveSpeed;
+            }
+            else
+            {
+                rb.velocity = new Vector2(inputDirection.x, inputDirection.y) * moveSpeed;
+            }
+        }
+        else
+        {
+            rb.velocity = new Vector2(inputDirection.x, inputDirection.y) * moveSpeed;
+        }
+
+        if (Vector3.Distance(transform.position, prevPos) < 0.005)
+        {
+            bufferedInput = Vector2.zero;
+        }
+        prevPos = transform.position;
+    }
+}
+```
           
-              public LayerMask wayPoint;
-              private Vector2 input;
-              public Vector2 inputDirection;
-          
-              Transform player;
-              private Rigidbody2D rb;
-              InputActionAsset actions;
-              RayCastHandler rayCastHandler;
-          
-              public Vector2 bufferedInput;
-              public Vector3 prevPos;
-          
-              public float deadZone = 0.9f;
-          
-              private void Start()
-              {
-                  rayCastHandler = GetComponent<RayCastHandler>();
-                  rb = GetComponent<Rigidbody2D>();
-                  player = PlayerController.player.transform;
-          
-                  RegisterSelfToResettableManager();
-              }
-          
-              private void OnEnable()
-              {
-                  actions = GetComponent<PlayerInput>().actions;
-          
-                  actions["Vent"].performed += OnMove;
-                  actions["Vent"].canceled += OnMoveCancel;
-          
-                  actions.Enable();
-                  inputDirection = PlayerController.instance.moveInput;
-          
-              }
-          
-              private void OnDisable()
-              {
-                  actions["Vent"].performed -= OnMove;
-                  actions["Vent"].canceled -= OnMoveCancel;
-                  input = Vector2.zero;
-              }
-          
-              void Update()
-              {
-                  MoveBuffer();
-                  Move();
-              }
-          
-              void OnMove(InputAction.CallbackContext ctx)
-              {
-                  input = ctx.ReadValue<Vector2>();
-                  MaxInput();
-              }
-          
-              void MaxInput()
-              {
-                  if(Mathf.Abs(input.x) > Mathf.Abs(input.y))
-                  {
-                      input.y = 0;
-                  }
-                  else if (Mathf.Abs(input.y) > Mathf.Abs(input.x))
-                  {
-                      input.x = 0;
-                  }
-              }
-          
-              void OnMoveCancel(InputAction.CallbackContext ctx)
-              {
-                  input = Vector2.zero;
-              }
-          
-              void MoveBuffer()
-              {
-                  if (input.x > deadZone)
-                  {
-                      if (canMoveRight)
-                      {
-                          inputDirection.x = 1;
-                          inputDirection.y = 0;
-                          bufferedInput = Vector2.zero;
-                          return;
-                      }
-                      else
-                      {
-                          bufferedInput.x = 1;
-                          bufferedInput.y = 0;
-                      }
-                  }
-          
-                  if (input.x < -deadZone)
-                  {
-                      if (canMoveLeft)
-                      {
-                          inputDirection.x = -1;
-                          inputDirection.y = 0;
-                          bufferedInput = Vector2.zero;
-                          return;
-                      }
-                      else
-                      {
-                          bufferedInput.x = -1;
-                          bufferedInput.y = 0;
-                      }
-                  }
-          
-                  if (input.y > deadZone)
-                  {
-                      if (canMoveUp)
-                      {
-                          inputDirection.y = 1;
-                          inputDirection.x = 0;
-                          bufferedInput = Vector2.zero;
-                          return;
-                      }
-                      else
-                      {
-                          bufferedInput.y = 1;
-                          bufferedInput.x = 0;
-                      }
-                  }
-          
-                  if (input.y < -deadZone /*&& rb.velocity.y < 0*/)
-                  {
-                      if (canMoveDown)
-                      {
-                          inputDirection.y = -1;
-                          inputDirection.x = 0;
-                          bufferedInput = Vector2.zero;
-                          return;
-                      }
-                      else
-                      {
-                          bufferedInput.y = -1;
-                          bufferedInput.x = 0;
-                      }
-                  }
-                  return;
-          
-              }
-          
-              void Move()
-              {
-                  rb.gravityScale = 0;
-          
-                  canMoveUp = rayCastHandler.smallTopIsFree;
-                  canMoveDown = rayCastHandler.smallDownIsFree;
-                  canMoveLeft = rayCastHandler.leftSide;
-                  canMoveRight = rayCastHandler.rightSide;
-          
-                  if (bufferedInput != Vector2.zero)
-                  {
-                      if (((canMoveRight || canMoveLeft) && bufferedInput.x != 0) || ((canMoveUp || canMoveDown) && bufferedInput.y != 0))
-                      {
-                          rb.velocity = new Vector2(bufferedInput.x, bufferedInput.y) * moveSpeed;
-                      }
-                      else
-                      {
-                          rb.velocity = new Vector2(inputDirection.x, inputDirection.y) * moveSpeed;
-                      }
-                  }
-                  else
-                  {
-                      rb.velocity = new Vector2(inputDirection.x, inputDirection.y) * moveSpeed;
-                  }
-          
-                  if (Vector3.Distance(transform.position, prevPos) < 0.005)
-                  {
-                      bufferedInput = Vector2.zero;
-                  }
-                  prevPos = transform.position;
-              }
-          }
-          ```
 </details>
