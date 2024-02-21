@@ -71,7 +71,10 @@ actions["Jump"].canceled += OnJumpCanceled;
 Right after the player's main movement, switching sizes is a very important mechanic for Vesper.
 We had many solutions for this mechanics. However, we went with a simple solution of changing the size and some stats of the player character.
 
-![now](/Vesper/Images/Switch2.gif) | ![now](/Vesper/Images/Switch.gif)
+
+![now](/Vesper/Images/Switch2.gif)   |  ![now](/Vesper/Images/Switch.gif)
+:-------------------------:|:-------------------------:
+
 
 <details>
           <summary>SizeStats Script</summary>
