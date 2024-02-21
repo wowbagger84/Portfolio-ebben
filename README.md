@@ -34,7 +34,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
 - **Description:** Brief overview of the project.
 - **Role:** Your role in the project (e.g., Lead Developer, Programmer, Artist).
-- **Technologies Used:** List technologies, frameworks, and tools used.
+- **Technologies Used:** Unity. Lootlocker database.
 
 [Link to the project repository or live demo if available]
 
