@@ -16,10 +16,11 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 - **Technologies Used:** Unity2D, DOTween and Input system.
 - [Vesper ITCH.IO](https://yrgo-game-creator.itch.io/vesper)
 
-  
+
 ![](/Vesper/Images/Screenshot2024-01-04145910.png)    |  ![](/Vesper/Images/3G5X+H.png)
 :-------------------------:|:-------------------------:
 ![](/Vesper/Images/vesper_trailer_v2.gif)              |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
+  
 
 
 ### [Kat-boom](https://github.com/Samurai-Ebben/Portflio/tree/main/Kat-boom)
@@ -29,9 +30,8 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 - My role in this project is Lead Programmer responsible for the player mechanics and gameplay.
 - **Technologies Used:** Unity and Lootlocker database.
 
-![](/Vesper/Images/Screenshot2024-01-04145910.png)    |  ![](/Vesper/Images/3G5X+H.png)
+![](/Kat-boom/Images/GhostMode.gif)    |  ![](/Kat-boom/Images/Movement.gif)
 :-------------------------:|:-------------------------:
-![](/Vesper/Images/vesper_trailer_v2.gif)              |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
 
 [Link to the project repository or live demo if available]
 
