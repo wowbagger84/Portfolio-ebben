@@ -34,14 +34,6 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 ![](/Kat-boom/Images/GhostMode.gif)    |  ![](/Kat-boom/Images/Movement.gif)
 :-------------------------:|:-------------------------:
 
-[Link to the project repository or live demo if available]
-
-### Project 3: [Project Name]
-
-- **Description:** Brief overview of the project.
-- **Role:** Your role in the project (e.g., Lead Developer, Programmer, Artist).
-- **Technologies Used:** 
-
 
 ## Skills
 
