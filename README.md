@@ -22,7 +22,6 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 ![](/Vesper/Images/vesper_trailer_v2.gif)              |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
   
 
-###A-B-C
 
 ### [Kat-boom](https://github.com/Samurai-Ebben/Portflio/tree/main/Kat-boom)
 ![Thumbnail_katboom](/Kat-boom/Images/splashart.png)
