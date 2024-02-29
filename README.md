@@ -29,9 +29,9 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 -  **Technologies Used:** Unity, DOTween, Firebase, Shader graph system.
 
 
-![](/ABC/Images/FlushSet.png)    |  ![](/ABC/Images/FlushSet.png)
+![](/ABC/Images/FlushSet.png)    |  ![](/ABC/Images/WinScreen.png)
 :-------------------------:|:-------------------------:
-![](/ABC/Images/GamePlay2.gif)              |  ![](/ABC/Images/GamePlay3.png)
+![](/ABC/Images/GamePlay2.gif)  |  ![](/ABC/Images/GamePlay3.gif)
 
 
 ### [Kat-boom](https://github.com/Samurai-Ebben/Portflio/tree/main/Kat-boom)
