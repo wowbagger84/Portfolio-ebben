@@ -50,9 +50,9 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 -  A solo assignment in Yrgo. Made to test our abilities using Unreal.
 -  **Technologies Used:** Unreal, Blueprints, Niagara.
 
-![](/MjolnirsMight/Images/FlushSet.png)    |  ![](/MjolnirsMight/Images/WinScreen.png)
+![](/MjolnirsMight/Images/Aim.png)    |  ![](/MjolnirsMight/Images/Throwing_recalling_Hammer.gif)
 :-------------------------:|:-------------------------:
-![](/MjolnirsMight/Images/GamePlay2.gif)  |  ![](/MjolnirsMight/Images/GamePlay3.gif)
+![](/MjolnirsMight/Images/GIF 2024-04-30 07-28-38.gif)  |  ![](/MjolnirsMight/Images/GIF 2024-04-30 07-23-53.gif)
 
 ## Skills
 
