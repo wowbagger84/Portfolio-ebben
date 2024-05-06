@@ -52,7 +52,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
 ![](/MjolnirsMight/Images/Aim.png)    |  ![](/MjolnirsMight/Images/Throwing_recalling_Hammer.gif)
 :-------------------------:|:-------------------------:
-![](/MjolnirsMight/Images/GIF 2024-04-30 07-28-38.gif)  |  ![](/MjolnirsMight/Images/GIF 2024-04-30 07-23-53.gif)
+![](/MjolnirsMight/Images/Recalling2.gif)  |  ![](/MjolnirsMight/Images/Recalling3.gif)
 
 ## Skills
 
