@@ -46,6 +46,12 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
 ### [Mjolnir's Might](https://github.com/Samurai-Ebben/Portflio/tree/main/MjolnirsMight)
 
+-  Third-person game, Inspired by Thor and GOD Of War.
+-  A solo assignment in Yrgo. Made to test our abilities using Unreal.
+-  **Technologies Used:** Unreal, Blueprints, Niagara.
+
+
+
 ## Skills
 
 - **Programming Languages:** C#, C++, Java and Python.
