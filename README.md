@@ -58,7 +58,6 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 
 - **Programming Languages:** C#, C++, Java and Python.
 - **Game Engines:** Unity, Unreal Engine.
-- **Tools:** Mention relevant tools and software you are skilled in.
 
 ## Education
 
