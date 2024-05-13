@@ -1,17 +1,4 @@
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-- [Ebben's Game Development Portfolio](#ebbens-game-development-portfolio)
-   * [About Me](#about-me)
-   * [Projects](#projects)
-      + [Vesper](#vesper)
-      + [A-B-C(Auto-Battling-Cards)](#a-b-cauto-battling-cards)
-      + [Kat-boom](#kat-boom)
-      + [Mjolnir's Might](#mjolnirs-might)
-   * [Skills](#skills)
-   * [Education](#education)
-   * [Contact](#contact)
-
-<!-- TOC end -->
 
 
 <!-- TOC --><a name="ebbens-game-development-portfolio"></a>
@@ -23,6 +10,20 @@ Welcome to my game development portfolio! This repository showcases the projects
 ## About Me
 
 I am a passionate game developer focusing on gameplay programming, player mechanics, and AI.
+
+## Table of Content
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+ * [Projects](#projects)
+    + [Vesper](#vesper)
+    + [A-B-C(Auto-Battling-Cards)](#a-b-cauto-battling-cards)
+    + [Kat-boom](#kat-boom)
+    + [Mjolnir's Might](#mjolnirs-might)
+ * [Skills](#skills)
+ * [Education](#education)
+ * [Contact](#contact)
+
+<!-- TOC end -->
+
 <!-- TOC --><a name="projects"></a>
 ## Projects
 
