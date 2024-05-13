@@ -1,13 +1,32 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+- [Ebben's Game Development Portfolio](#ebbens-game-development-portfolio)
+   * [About Me](#about-me)
+   * [Projects](#projects)
+      + [Vesper](#vesper)
+      + [A-B-C(Auto-Battling-Cards)](#a-b-cauto-battling-cards)
+      + [Kat-boom](#kat-boom)
+      + [Mjolnir's Might](#mjolnirs-might)
+   * [Skills](#skills)
+   * [Education](#education)
+   * [Contact](#contact)
+
+<!-- TOC end -->
+
+
+<!-- TOC --><a name="ebbens-game-development-portfolio"></a>
 # Ebben's Game Development Portfolio
 
 Welcome to my game development portfolio! This repository showcases the projects I've worked on, highlighting my skills and experience in game development.
 
+<!-- TOC --><a name="about-me"></a>
 ## About Me
 
 I am a passionate game developer focusing on gameplay programming, player mechanics, and AI.
+<!-- TOC --><a name="projects"></a>
 ## Projects
 
+<!-- TOC --><a name="vesper"></a>
 ### [Vesper](https://github.com/Samurai-Ebben/Portflio/tree/main/Vesper)
 ![Thumbnail](/Vesper/Images/vesper_thumbnail.png)
 
@@ -22,6 +41,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 ![](/Vesper/Images/vesper_trailer_v2.gif)              |  ![](/Vesper/Images/Screenshot2024-01-04150218.png)
 
 
+<!-- TOC --><a name="a-b-cauto-battling-cards"></a>
 ### A-B-C(Auto-Battling-Cards)
 -  A simple mobile online auto battle, card game with a twist.
 -  A solo assignment in Yrgo. Made to test our abilities using database.
@@ -33,6 +53,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 ![](/ABC/Images/GamePlay2.gif)  |  ![](/ABC/Images/GamePlay3.gif)
 
 
+<!-- TOC --><a name="kat-boom"></a>
 ### [Kat-boom](https://github.com/Samurai-Ebben/Portflio/tree/main/Kat-boom)
 ![Thumbnail_katboom](/Kat-boom/Images/splashart.png)
 
@@ -44,6 +65,7 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 ![](/Kat-boom/Images/GhostMode.gif)    |  ![](/Kat-boom/Images/Movement.gif)
 :-------------------------:|:-------------------------:
 
+<!-- TOC --><a name="mjolnirs-might"></a>
 ### [Mjolnir's Might](https://github.com/Samurai-Ebben/Portflio/tree/main/MjolnirsMight)
 
 -  Third-person game, Inspired by Thor and GOD Of War.
@@ -54,16 +76,19 @@ I am a passionate game developer focusing on gameplay programming, player mechan
 :-------------------------:|:-------------------------:
 ![](/MjolnirsMight/Images/Recalling2.gif)  |  ![](/MjolnirsMight/Images/Recalling3.gif)
 
+<!-- TOC --><a name="skills"></a>
 ## Skills
 
 - **Programming Languages:** C#, C++, Java and Python.
 - **Game Engines:** Unity, Unreal Engine.
 
+<!-- TOC --><a name="education"></a>
 ## Education
 
 - High vocational diploma in Game Creator Programmer - Yrgo, 2025
 - Bachelor's degree in Computer Science: system development - Högskolan I Skövde, 2026
 
+<!-- TOC --><a name="contact"></a>
 ## Contact
 
 - **Email:** abanalhindi47@gmail.com
